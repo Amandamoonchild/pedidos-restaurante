@@ -38,8 +38,10 @@ class ListaPedidos {
             (pedido) => pedido.id != parametro
         ));
     }
-    cont(pedidos){
-        return pedidos.lenght();
+    cont(){
+        const number = this.pedidos.length;
+        
+        return number;
     }
 }
 
@@ -56,7 +58,7 @@ function criarPedido() {
 
     listarPedidos();
 
-    contador()
+    contador();
 }
 
 function listarPedidos() {
@@ -131,5 +133,7 @@ function deletarPedido(id){
 function contador(){
     const contador = listapedidos.cont();
 
-    document.getElementById(`result` + contador);
+    console.log(contador);
+
+    document.getElementById("result").innerHTML = `Contador:` + contador;
 }
