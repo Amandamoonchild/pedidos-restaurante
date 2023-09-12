@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="container-cadastro">
+            <h2>Cadastro de pedidos</h2>
+            <input type="text" placeholder="Cliente" id="cliente">
+            <input type="text" placeholder="Mesa" id="mesa">
+            <input type="text" placeholder="Descrição" id="descricao">
+            <button onclick="criarPedido()" id="cadastrar">Cadastrar pedido</button>
+            <button onclick="editarPedido()" id="editar" class="hidden">Editar pedido</button>
+        </div>
+        <div id="container-lista">
+            
+        </div>
+        <div id="contador">
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+</html>

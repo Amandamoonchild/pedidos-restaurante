@@ -1,0 +1,16 @@
+.hidden{
+    display: none !important;
+}
+
+#container{
+    text-align: center;
+    gap: 2rem;
+}
+
+#container-cadastro{
+    background-color: beige;
+}
+
+#container-lista{
+    background-color: beige;
+}
